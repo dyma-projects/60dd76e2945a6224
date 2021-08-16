@@ -16,8 +16,6 @@ export class Exercice1Component implements OnInit {
   }
 
   updateCounter(operation: string) {
-    console.log(operation);
-
     if (operation === '-') {
       this.compteur --
     } else {
